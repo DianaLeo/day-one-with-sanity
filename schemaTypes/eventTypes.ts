@@ -74,6 +74,22 @@ export const eventType = defineType({
       group:"editorial",
     }),
     defineField({
+      name:"video",
+      type:"file",
+      group:"editorial",
+      options:{
+        accept:"application/mp4",
+      }
+    }),
+    defineField({
+      name:"file",
+      type:"file",
+      group:"editorial",
+      options:{
+        accept:"application/pdf",
+      }
+    }),
+    defineField({
       name:"details",
       type:"array",
       of:[

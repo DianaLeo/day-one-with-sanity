@@ -14,4 +14,6 @@ export const structure: StructureResolver = (S)=>
       S.documentTypeListItem("event").title("Events").icon(CalendarIcon),
       S.documentTypeListItem("artist").title("Artists").icon(UserIcon),
       S.documentTypeListItem("venue").title("Venues").icon(PinIcon),
+      S.documentTypeListItem("page").title("Pages"),
+      S.documentTypeListItem("banner").title("Banners"),
     ])
